@@ -8,36 +8,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* HERO */
-.hero {
-  background-image: url('girassois.jpg'); /* Coloca aqui uma imagem tipo hero */
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 40px;
-  border-radius: 10px;
-  text-align: center;
-  color: white;
-}
-
-.hero h1 {
-  font-size: 48px;
-  margin: 0;
-}
-
-.hero p {
-  font-size: 20px;
-  margin-top: 10px;
-}
-
 /* MENU */
 .menu {
   background-color: #2a6f97;
