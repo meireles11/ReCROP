@@ -73,3 +73,21 @@ p {
 .links a:hover {
   color: #014f6d;
 }
+
+.title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 48px;
+  color: #2a6f97;
+  font-weight: bold;
+}
+
+.header-image {
+  display: block;
+  margin: 20px auto 40px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
