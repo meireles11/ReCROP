@@ -87,7 +87,7 @@ section:nth-of-type(even) {
 
 
 section:nth-of-type(odd) {
-  background-color: #f4fbf4;
+  background-color: #e0f4e0;
 }
 
 section {
@@ -106,9 +106,7 @@ h2 {
   margin-top: 60px;
 }
 
-h3 {
-  color: #2a6f97;
-}
+
 
 p {
   font-size: 18px;
