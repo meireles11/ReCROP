@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f9f4;
-  color: #333;
+  color: #000;
   scroll-behavior: smooth;
 }
 .hero-section {
@@ -104,14 +104,14 @@ section {
 h2 {
   color: #2a6f97;
   margin-top: 60px;
+  font-weight: 700;
 }
-
-
 
 p {
   font-size: 18px;
   line-height: 1.6;
   margin: 20px 0;
+  font-weight: 500;
 }
 
 .news-buttons {
@@ -180,6 +180,8 @@ p {
   font-size: 18px;
   line-height: 1.6;
   list-style: none;
+  color: #000;        
+  font-weight: 500;      
 }
 
 .objectives-list li {
