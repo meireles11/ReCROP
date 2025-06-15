@@ -8,23 +8,36 @@ body {
   scroll-behavior: smooth;
 }
 .hero-section {
-  height: 100vh;
-  background-image: url("vinha.jpg");
+  position: relative;
+  background-image: url("vinha.jpg"); 
   background-size: cover;
   background-position: center;
-  position: relative;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   text-align: center;
+  color: white;
+  overflow: hidden;
 }
 
-.hero-overlay {
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 40px;
-  border-radius: 12px;
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* ajusta opacidade aqui */
+  z-index: 0;
 }
+
+
+.hero-overlay {
+  position: relative;
+  z-index: 1;
+}
+
 
 .hero-title {
   font-size: 56px;
