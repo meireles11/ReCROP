@@ -9,7 +9,7 @@ body {
 }
 .hero-section {
   position: relative;
-  background-image: url("vinha.jpg"); 
+  background-image: url("images/vinha.jpg"); 
   background-size: cover;
   background-position: center;
   min-height: 76vh;
@@ -40,15 +40,23 @@ body {
 }
 
 
-.hero-corner-image {
+.hero-left-image {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  width: 200px;
+  width: 130px;
   height: auto;
   z-index: 2;
 }
 
+.hero-right-image {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  width: 250px;
+  height: auto;
+  z-index: 2;
+}
 
 .hero-title {
   font-size: 56px;
@@ -63,26 +71,16 @@ body {
 .menu {
   background-color: rgba(42, 111, 151, 0.9);
   backdrop-filter: blur(8px);
-  padding: 10px 30px;
+  padding: 20px 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-.menu-left {
-  display: flex;
-  align-items: center;
-}
 
-.menu-logo {
-  width: 80px;
-  height: 40px;
-  border-radius: 6px;
-  margin-right: 10px;
-}
 
 .menu-links a {
   color: white;
@@ -225,6 +223,28 @@ p {
   background-color: #2a6f97;
   border-radius: 50%;
 }
+
+.partner-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.partner-card img {
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 15px;
+}
+.partner-card h4 a {
+  color: #2a6f97;
+  text-decoration: none;
+}
+.partner-card h4 a:hover {
+  text-decoration: underline;
+}
+
 
 address {
   font-style: normal;
