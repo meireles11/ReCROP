@@ -270,16 +270,7 @@ section:nth-of-type(odd) {
 /* ==========================
    DISCLAIMER SECTION
 ========================== */
-.disclaimer-image-1 {
-  max-width: 700px;
-  height: auto;
-  margin-bottom: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.disclaimer-image-2 {
+.disclaimer-images {
   max-width: 700px;
   height: auto;
   margin-bottom: 20px;
