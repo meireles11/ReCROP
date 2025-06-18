@@ -137,6 +137,23 @@ p {
   font-weight: 500;
 }
 
+/* Section Workpackages */
+.workpackages-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-descriptions p {
+  margin-bottom: 1.5em;
+  line-height: 1.6;
+}
+
+
+/* Section News */
 .news-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -163,6 +180,8 @@ p {
   background-color: #1e3c24;
   transform: scale(1.05);
 }
+
+
 
 .links a {
   display: block;
